@@ -1,0 +1,12 @@
+.message {
+    position: fixed;
+    right: 10%;
+    top: 0;
+
+    animation: mymove 10.5s   ease-in-out;
+   opacity: 0;
+}
+@keyframes mymove {
+    from {opacity: 1;transition:cubic-bezier(0.165, 0.84, 0.44, 1);display: block;z-index: 11;}
+    to {opacity: 0;transition: cubic-bezier(0.165, 0.84, 0.44, 1); display: none;z-index: 1;}
+  }

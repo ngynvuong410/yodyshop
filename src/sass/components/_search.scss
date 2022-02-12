@@ -1,0 +1,38 @@
+.search__product{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 5;
+     left: 0;
+     padding: 0!important;
+     height: unset!important;
+     max-height: 350px;
+     overflow: overlay;
+     &__item{
+        @include flex(center,normal);
+        padding: 3px 5px;
+        background: $white-color;
+        color: $active-color;
+        border-bottom: 1px solid #80808038;
+         img{
+             width: 100%;
+             max-width: 50px;
+             object-fit: cover;
+             max-height: 50px;
+         }
+         h3{
+             font-size: 1.1rem;
+             text-transform: uppercase;
+             font-family: 'Courier New', Courier, monospace;
+             font-weight: 600;
+             margin-bottom: 0;
+             letter-spacing: .1;
+         }
+         p{
+             margin-bottom: 0;
+         }
+     }
+     .search__content{
+         margin-left: 5px;
+     }
+}

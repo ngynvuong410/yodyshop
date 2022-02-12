@@ -1,0 +1,15 @@
+.footer{
+    @include flex(center,space-between);
+    width: 100%;
+       padding: 30px 40px;
+
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    background-color:#1e1c56 ;
+    div{
+        padding: 10px 15px;
+        color: white;
+        width: 31%;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}

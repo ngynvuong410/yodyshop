@@ -1,0 +1,103 @@
+.product__thumb{
+    display: flex;
+    max-height: 500px;
+    overflow-x: hidden;
+    &__list{
+            img{
+                max-width: 80px;
+            }
+    }
+    &__item-image{
+        margin: 10px 0;
+        cursor: pointer;
+    }
+    &__image-show{
+        margin: 0 5px;
+        flex: 1;
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+.product__info{
+    h3{
+        font-family: 'Courier New', Courier, monospace;
+        text-transform:uppercase;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 2rem;
+    }h4{
+        color:$active-color;
+        letter-spacing: .4rem;
+    }
+    i{
+        font-size: 1.6rem;
+    }
+    del{
+        color: gray;
+    }
+}
+.product__info__body{
+    &__item{
+      
+        margin: 10px 0;
+        .btn{
+            width: 100%;
+            margin: 10px 0;
+        }
+        >p{
+            font-size: 1.6rem;
+            font-weight: 600;
+            letter-spacing: .4rem;
+        }
+        .product__info__gruop{
+         
+            display: flex;
+            align-items: center;
+            letter-spacing: 3px;
+            p{
+                &.active{
+                    background-color: $active-color;
+                    color: $white-color;
+                }
+                padding: 10px 20px;
+                border-radius: 3px;
+                border: 1px solid $black-color;
+                margin: 3px;
+                color: black;
+                &:hover{
+                    background-color: $active-color;
+                    color: $white-color;
+                    border: none;
+                    transition: .3s;
+                }
+            }
+            span{
+                padding: 10px 20px;
+                border-radius: 3px;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 1.4rem;
+                border:1px solid black;
+                color: $black-color;
+          
+                
+            }
+            b{
+                margin: 0 10px;
+            }
+        }
+        &.size p{
+            background-color: unset;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    }
+}
+.support__customer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    >div{
+        width: 48%;
+    }
+}

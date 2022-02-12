@@ -1,0 +1,40 @@
+.user__utility{
+    background: url(//bizweb.dktcdn.net/100/438/408/themes/843441/assets/bg_login.jpg?1638341157806) bottom center no-repeat;
+    padding: 130px 0;
+    height: 100vh;
+    &__wrap{
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 50px 20px;
+        background: #fff;
+    }
+    &__group{
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+        input{
+            flex: 1;
+            display: block;
+            height: 40px;
+            margin: 0 5px;
+        }
+        .btn{
+            padding: 10px 15px;
+            margin: 0 3px;
+        }
+    }
+    button{
+        width: 100%;
+        padding: 10px 20px;
+        border: 1px solid $active-color;
+        border-radius: 3px;
+        outline: none;
+        cursor: pointer;
+        color: $active-color;
+        &:hover{
+            background: $active-color;
+            color: #fff;
+        }
+    }
+}

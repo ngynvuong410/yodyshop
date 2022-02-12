@@ -1,0 +1,24 @@
+.policy__cart{
+    @include flex(center,space-between);
+
+    flex-wrap: wrap;
+    &__service__left{
+      margin: 0 10px;
+    }
+    &__serviec__right{
+
+    }
+    &__title{
+        font-size: 1.5rem;
+    }
+    &__sumary{
+        font-family: cursive;
+        font-size: 1.4rem;
+        font-style: italic;
+        color: $gray-color;
+        span{
+            color: $active-color;
+            padding-left:4px;
+        }
+    }
+}

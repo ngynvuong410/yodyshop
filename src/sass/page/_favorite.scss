@@ -1,0 +1,122 @@
+.favorite{
+    margin: 30px 0;
+}
+
+.favorite__user{
+ 
+    &__head{
+        i{font-size: 5rem;
+        display: block;
+        text-align: center;}
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a{
+                padding: 0 10px;
+                color: black;
+                font-family: 'Courier New', Courier, monospace;
+
+                &:hover{
+                    color: $active-color;
+                }
+            }
+        }
+    }
+    &__info{
+        padding: 30px 0;
+        .favorite__wpp{
+            display: flex;
+            align-items: center;
+            p{
+         
+                margin: 0 10px 0;
+                font-family: 'Courier New', Courier, monospace;
+                cursor: pointer;
+                &:hover{
+                    color: $active-color;
+                }
+            }
+           
+        }
+    }
+}
+.favorite__products{
+    &__head{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #80808054;
+        p{
+            &:first-child{
+                color: $active-color;
+            }
+            margin-bottom: 0;
+            font-weight: 600;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.6rem;
+            span{
+                padding: 0 5px;
+            }
+        }
+    }
+    &__body{
+     
+        .favorite__cart{
+            display: flex;
+            border-bottom: 1px solid #80808054;
+          &__tools{
+              flex: 1;
+              padding: 10px 0;
+              display: flex;
+               align-items: center;
+              button{
+                 background: none;
+                 border: 1px solid $active-color;
+                 border-radius: 3px;
+                 color: black;
+                  margin: 0 10px;
+                  &:hover{
+                      background: $active-color;
+                      color: white;
+                  }
+                
+              }
+          }
+        }
+        padding: 20px 0;
+        .product__cart {
+            margin:  0;
+            padding: 10px 0;
+            
+            display: flex;
+            width: 50%;
+            &__thumb{
+                img{
+                    width: 150px;
+                }
+            }
+            &__info{
+                margin: 0 10px ;
+            }
+            &__price{
+                flex-direction: column;
+            }
+        }
+    }
+    .favorite__empty{
+        text-align: center;
+        i{
+            font-size: 4rem;
+            color: $active-color;
+        }
+        p{
+            margin-bottom: 0;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 10px 0;
+        }
+        button{
+            max-width: 200px;
+        }
+    }
+}

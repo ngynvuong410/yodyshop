@@ -1,0 +1,87 @@
+.product__cart{
+    @media (max-width: 575.98px) { 
+        &{
+            width: 100%;
+        }
+     }
+
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {  }
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {  }
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {  }
+
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {  }
+    width: 23%;
+    margin: 0 10px;
+    &__thumb{
+        position: relative;
+       overflow: hidden;
+       img{
+        width: 100%;
+        object-fit: cover;
+
+        &:hover{
+            transform: scale(1.03);
+            transition:.4s ease-in-out;
+        }
+       }
+    
+    }
+    &__promotion{
+        position: absolute;
+        top: 3%;
+        left: 0;
+        padding: 2px 20px;
+        background: $active-color;
+        color: $white-color;
+        font-family: 'Courier New', Courier, monospace;
+           }
+    &__hot{
+        position: absolute;
+        top: 10%;
+        left: 0;
+        padding: 2px 5px;
+        background: url(//bizweb.dktcdn.net/100/438/408/themes/843102/assets/new_tag.svg?1637832686562) left center no-repeat;
+        background-size: contain;
+        color: $white-color;
+        font-family: 'Courier New', Courier, monospace;
+           }
+    &__info{
+        padding: 10px 0;
+        h3{
+            text-transform: capitalize;
+             padding: 7px 0;
+        }
+        .product__cart__price{
+            font-size: 1.4rem;
+            padding: 5px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: $active-color;
+            font-weight: 600;
+            del{
+                color: $gray-color;
+            }
+        }
+    }
+    .favorite{
+        position: absolute;
+        right: 5%;
+        top: 3%;
+        z-index: 3;
+        font-size: 2.3rem;
+        border: 1px solid gray;
+        background-color: #fff;
+        cursor: pointer;
+        &.active{
+            color: red;
+            
+        }
+    }
+}
