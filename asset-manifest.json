@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/yodyshop/static/css/main.f8c4be3b.chunk.css",
+    "main.js": "/yodyshop/static/js/main.f99b6136.chunk.js",
+    "main.js.map": "/yodyshop/static/js/main.f99b6136.chunk.js.map",
+    "runtime-main.js": "/yodyshop/static/js/runtime-main.b52c6d72.js",
+    "runtime-main.js.map": "/yodyshop/static/js/runtime-main.b52c6d72.js.map",
+    "static/css/2.c544d40f.chunk.css": "/yodyshop/static/css/2.c544d40f.chunk.css",
+    "static/js/2.44b376c0.chunk.js": "/yodyshop/static/js/2.44b376c0.chunk.js",
+    "static/js/2.44b376c0.chunk.js.map": "/yodyshop/static/js/2.44b376c0.chunk.js.map",
+    "index.html": "/yodyshop/index.html",
+    "static/css/2.c544d40f.chunk.css.map": "/yodyshop/static/css/2.c544d40f.chunk.css.map",
+    "static/css/main.f8c4be3b.chunk.css.map": "/yodyshop/static/css/main.f8c4be3b.chunk.css.map",
+    "static/js/2.44b376c0.chunk.js.LICENSE.txt": "/yodyshop/static/js/2.44b376c0.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/yodyshop/static/media/slick.c94f7671.ttf",
+    "static/media/slider_2.jpg": "/yodyshop/static/media/slider_2.f2a3038a.jpg",
+    "static/media/slider_3.jpg": "/yodyshop/static/media/slider_3.7438ad39.jpg",
+    "static/media/slider_5.jpg": "/yodyshop/static/media/slider_5.e0f50378.jpg",
+    "static/media/smn4266-tra-6.jpg": "/yodyshop/static/media/smn4266-tra-6.3687a1c6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b52c6d72.js",
+    "static/css/2.c544d40f.chunk.css",
+    "static/js/2.44b376c0.chunk.js",
+    "static/css/main.f8c4be3b.chunk.css",
+    "static/js/main.f99b6136.chunk.js"
+  ]
+}
